@@ -1,0 +1,23 @@
+[package]
+name = "exec_duration"
+version = "0.1.0"
+authors = ["Adlane Achab <adlane.achab@gmail.com>"]
+edition = "2018"
+license-file = "LICENSE"
+description = "Stupid and easy to use Rust code instrumentalization library"
+homepage = "https://github.com/adlane/exec_duration"
+repository = "https://github.com/adlane/exec_duration"
+readme = "README.md"
+keywords = ["instrumentation", "benchmark", "test"]
+categories = ["development-tools"]
+
+[dependencies]
+rustc-hash = "~1"
+serde = { version = "~1", optional = true, features = ["derive"] }
+
+[dev-dependencies]
+more-asserts = ""
+version-sync = "0.9"
+
+[badges]
+maintenance = { status = "actively-developed" }
