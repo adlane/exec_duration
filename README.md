@@ -68,10 +68,9 @@ fn main() {
     function_2();
 
     // fetch results
-    if let Ok(list) = exec_duration::fetch_results() {
-        for r in list.iter() {
-            println!("{}", r);
-        }
+    let list = exec_duration::fetch_results();
+    for r in list.iter() {
+        println!("{}", r);
     }
 }
 ```
