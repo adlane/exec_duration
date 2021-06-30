@@ -1,4 +1,5 @@
 ![crates.io](https://img.shields.io/crates/v/exec_duration.svg)
+![build](https://github.com/adlane/exec_duration/actions/workflows/rust.yml/badge.svg)
 
 # exec_duration
 Get execution duration of a function or a bloc of code
