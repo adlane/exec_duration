@@ -1,6 +1,6 @@
 [package]
 name = "exec_duration"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Adlane Achab <adlane.achab@gmail.com>"]
 edition = "2018"
 license-file = "LICENSE"
@@ -16,7 +16,7 @@ rustc-hash = "~1"
 serde = { version = "~1", optional = true, features = ["derive"] }
 
 [dev-dependencies]
-more-asserts = ""
+more-asserts = "0.2.1"
 version-sync = "0.9"
 
 [badges]

@@ -62,7 +62,7 @@
 //! ```
 
 #![doc(issue_tracker_base_url = "https://github.com/adlane/exec_duration/issues/")]
-#![doc(html_root_url = "https://docs.rs/exec_duration/0.1.0")]
+#![doc(html_root_url = "https://docs.rs/exec_duration/0.1.1")]
 #![doc(html_no_source)]
 #![deny(missing_docs)]
 
