@@ -1,3 +1,5 @@
+![crates.io](https://img.shields.io/crates/v/exec_duration.svg)
+
 # exec_duration
 Get execution duration of a function or a bloc of code
 
